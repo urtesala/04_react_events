@@ -1,0 +1,11 @@
+.formDiv {
+  width: min-content;
+}
+
+form {
+  padding: 2rem;
+}
+
+.submit {
+  margin-top: 1rem;
+}

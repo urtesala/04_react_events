@@ -1,0 +1,19 @@
+.feature {
+  min-height: 100px;
+}
+@media screen and (min-width: 440px) {
+  .feature {
+    grid-column: span 1;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .feature1 {
+    order: 1;
+  }
+  .feature3 {
+    order: 2;
+  }
+  .feature2 {
+    order: 3;
+  }
+}

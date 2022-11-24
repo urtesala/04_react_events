@@ -7,7 +7,7 @@ function ButtonOne() {
       onClick={(e) => {
         const clickedButton = e.target;
 
-        if (clickedButton.className == 'buttonOne')
+        if (clickedButton.className === 'buttonOne')
           clickedButton.className = 'buttonOneInverted';
         else clickedButton.className = 'buttonOne';
       }}

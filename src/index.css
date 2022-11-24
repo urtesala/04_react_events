@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  font-size: 2rem;
+  text-align: center;
+  color: gray;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 430px) {
+  .layout {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .layout {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
