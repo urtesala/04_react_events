@@ -1,7 +1,11 @@
+import Button from './components/Button/Button';
+
 function App() {
   return (
     <div className='App'>
-      <h1>Sveiki</h1>
+      <h1>Mouse events</h1>
+      {/* Mouse events: click, contextmenu, mouseenter, mouseleave, mousemove */}
+      <Button />
     </div>
   );
 }
