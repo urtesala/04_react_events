@@ -1,0 +1,31 @@
+.buttonOne {
+  background: linear-gradient(to right, #ca1919, #c67b10);
+  background-color: #ca1919;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+  padding: 17px 15px;
+  border: 0px solid #000;
+  border-radius: 10px;
+}
+.buttonOne:hover {
+  background: linear-gradient(to right, #d05454, #cc8e52);
+  background-color: #d05454;
+}
+.buttonOne:active {
+  transform: scale(0.95);
+}
+.buttonOneInverted {
+  background: linear-gradient(to right, #5754d0, #cc5287);
+  background-color: #5754d0;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+  padding: 17px 15px;
+  border: 0px solid #000;
+  border-radius: 10px;
+}
