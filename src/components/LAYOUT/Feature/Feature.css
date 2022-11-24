@@ -1,5 +1,6 @@
 .feature {
   min-height: 100px;
+  padding: 2rem;
 }
 @media screen and (min-width: 440px) {
   .feature {

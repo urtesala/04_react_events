@@ -1,6 +1,7 @@
 .signup {
   background-color: #d6e9fe;
   min-height: 80px;
+  padding: 2rem;
 }
 @media screen and (min-width: 1024px) {
   .signup {

@@ -1,6 +1,7 @@
 .content {
   background-color: #eaedfe;
   min-height: 120px;
+  padding: 2rem;
 }
 
 @media screen and (min-width: 440px) {
